@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+     font-family: 'Poppins', sans-serif !important;
+ 
+  background-color: #f8f9fa;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.calendar-container {
+  max-width: 1200px;   /* keeps calendar centered, avoids infinite stretching */
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); /* responsive fix */
+  gap: 15px;
+}
+
+.month-card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  min-height: 260px; /* keeps cards stable height */
+}
+
+.month-card:hover {
+  transform: translateY(-3px);
+}
+
+/* Month + Year header */
+.month-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1c1c1c;
+  margin: 0;
+}
+
+.year-label {
+  margin-top: -3px;
+  font-size: 14px;
+  color: #777;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 8px;
+  table-layout: fixed; /* keeps table cells equal width */
+}
+
+th {
+  font-size: 12px;
+  color: #777;
+  padding: 4px;
+}
+
+td {
+  height: 35px;
+  min-width: 28px;  /* prevents cells from shrinking too small */
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+td:hover {
+  background-color: #eaeaea;
+}
+
+.event-day {
+  background-color: #ffc107;
+  border-radius: 50%;
+  font-weight: bold;
+  color: #000;
+}
+
+.event-day:hover {
+  background-color: #e0a800;
+  color: #fff;
+}
+
+/* Event list under each month */
+.event-list {
+  margin-top: 10px;
+  padding: 6px;
+  background: #f5f5f5;
+  border-radius: 6px;
+  font-size: 13px;
+  color: #333;
+  text-align: center;
+}
+
+.event-name {
+  font-weight: 500;
+  margin: 2px 0;
+}
+
+/* Modal-like popup */
+.event-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.event-content {
+  background: white;
+ 
+  padding: 20px;
+  border-radius: 6px;
+  width: 300px;
+  text-align: left;
+}
+
+.event-content h2 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+.event-content button {
+  margin-top: 15px;
+  padding: 8px 12px;
+  border: none;
+  background: #3498db;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.event-content button:hover {
+  background: #217dbb;
+}
+
+.event-card {
+  width: 320px;
+  max-width: 95%; /* responsive fix */
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  font-family: sans-serif;
+}
+
+.event-header {
+  background-color: #f5a623;
+  color: black;
+  padding: 12px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: black;
+}
+
+.event-body {
+  padding: 16px;
+}
+
+.event-title {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.event-date {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 16px;
+}
+
+.event-description p {
+  margin-top: 4px;
+}
+
+.event-id-box {
+  margin-top: 16px;
+  background-color: #fff2cc;
+  padding: 12px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.event-id-content span {
+  display: block;
+  font-size: 12px;
+  color: #888;
+}
+
+.event-id-content strong {
+  font-size: 16px;
+}
+
+.event-id-icon {
+  font-size: 20px;
+}
+
+.event-close-button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background-color: #1f1f1f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* 📱 Responsive Grid */
+@media (max-width: 992px) {
+  .calendar-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+}
+
+@media (max-width: 576px) {
+  .calendar-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .month-card {
+    padding: 12px;
+    min-height: 220px;
+  }
+
+  td {
+    height: 32px;
+    font-size: 12px;
+  }
+
+  .event-card {
+    width: 95%;
+  }
+}
+/* Year Filter Styling */
+.year-filter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.year-filter label {
+  font-weight: 600;
+  color: #333;
+}
+
+.year-filter select {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;   /* Rounded corners */
+  background-color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.year-filter select:hover {
+  border-color: #007bff;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.3);
+}
+
+.year-filter select:focus {
+  outline: none;
+  border-color: #0056b3;
+  box-shadow: 0 0 6px rgba(0, 86, 179, 0.4);
+}

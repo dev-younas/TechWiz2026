@@ -1,0 +1,115 @@
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+     font-family: 'Poppins', sans-serif !important;
+}
+        .banner {
+            background-image: url(/eventBanner.jpeg);
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 0;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        .card {
+            border: none;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+            height: 100%;
+            background: linear-gradient(145deg, #ffffff, #f0f0f0);
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+            background-color: var(--soft-stone);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 4rem;
+        }
+
+        .card-title {
+            color: var(--dark-chocolate);
+            font-weight: 600;
+        }
+
+        .card-text {
+            color: var(--text);
+        }
+
+        .btn-custom {
+            background-color: var(--earthy-brown);
+            color: white;
+            border: none;
+        }
+
+        .btn-custom:hover {
+            background-color: var(--dark-chocolate);
+            color: var(--muted);
+        }
+
+        footer {
+            background-color: var(--dark-chocolate);
+            color: var(--muted);
+            padding: 30px 0;
+            margin-top: 40px;
+        }
+
+        .section-title {
+            position: relative;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .section-title:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 3px;
+            background-color: var(--earthy-brown);
+        }
+
+        .sports-icon {
+            font-size: 2rem;
+            color: var(--earthy-brown);
+            margin-bottom: 15px;
+        }
+
+        .progress {
+            height: 8px;
+            margin-bottom: 10px;
+            background-color: #e9ecef;
+        }
+
+        .progress-bar {
+            background-color: var(--earthy-brown);
+        }
+
+        .skill-level {
+            font-size: 0.85rem;
+            color: var(--warm-taupe);
+        }
+        
+        .stats-number {
+            font-size: 2rem;
+            font-weight: bold;
+            color: var(--earthy-brown);
+        }
+        
+        .stats-label {
+            font-size: 0.9rem;
+            color: var(--text);
+        }

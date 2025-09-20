@@ -1,0 +1,537 @@
+[
+    {
+        "id": 1,
+        "heading": "The Innovation Marathon",
+        "img":"/1.png",
+        "cat":"Technical",
+        "subtitle": "Annual Hackathon - Where Ideas Transform Reality",
+        "desc": "Where creativity, coding, and collaboration converge to build tomorrow's solutions in record time",
+        "heading2": "The Global Phenomenon",
+        "p1": "Annual hackathons have become the cornerstone of innovation culture worldwide, bringing together developers, designers, entrepreneurs, and visionaries. These intensive coding competitions, typically lasting 24-48 hours, challenge participants to transform ideas into working prototypes within strict time constraints.",
+        "p2": "The power of hackathons lies in their ability to break down traditional barriers—combining diverse skill sets, encouraging rapid experimentation, and fostering an environment where failure is just another step toward breakthrough innovation.",
+        "heading3": "Hackathon By The Numbers",
+        "cardsData": [
+            {
+                "title": "Basic Rules",
+                "description": "The fundamental principles that govern these innovation marathons:",
+                "p1": "24-48 hour time limits",
+                "p2": "Team-based collaboration",
+                "p3": "Original idea development",
+                "p4": "Working prototype required",
+                "p5": "Pitch presentation mandatory"
+            },
+            {
+                "title": "Key Skills",
+                "description": "Essential abilities that define successful hackathon participants:",
+                "p1": "Rapid prototyping",
+                "p2": "Cross-functional collaboration",
+                "p3": "Problem identification",
+                "p4": "Technical implementation",
+                "p5": "Presentation skills"
+            },
+            {
+                "title": "Categories",
+                "description": "The various formats hackathons take worldwide:",
+                "p1": "Corporate Innovation Challenges",
+                "p2": "University Competitions",
+                "p3": "Open Source Hackathons",
+                "p4": "Social Impact Events",
+                "p5": "Industry-Specific Contests"
+            },
+            {
+                "title": "Major Events",
+                "description": "The most prestigious hackathon competitions globally:",
+                "p1": "TechCrunch Disrupt",
+                "p2": "NASA Space Apps Challenge",
+                "p3": "Facebook F8 Hackathon",
+                "p4": "Google Developer Challenge",
+                "p5": "MIT Hacking Medicine"
+            }
+        ],
+        "participant_roles": {
+            "heading": "Participant Roles & Responsibilities",
+            "roles": [
+                {
+                    "role": "Developers",
+                    "description": "The technical backbone responsible for bringing ideas to life through code. Include full-stack developers, mobile app developers, and backend specialists. Key attributes include programming proficiency, debugging skills, API integration, and database management."
+                },
+                {
+                    "role": "Designers", 
+                    "description": "Creative professionals who focus on user experience and visual appeal. Includes UX/UI designers, graphic designers, and product designers. Require aesthetic sense, user empathy, prototyping tools knowledge, and design thinking methodology."
+                },
+                {
+                    "role": "Business Strategists",
+                    "description": "Participants who develop the commercial viability and market strategy. Include entrepreneurs, product managers, and business analysts. Need market research skills, financial modeling, pitch development, and strategic planning abilities."
+                },
+                {
+                    "role": "Subject Matter Experts",
+                    "description": "Domain specialists who provide industry knowledge and technical guidance. Include data scientists, AI specialists, and industry veterans. Bring specialized knowledge, mentorship capabilities, problem validation, and technical feasibility assessment."
+                }
+            ]
+        },
+        "essential_skills": {
+            "heading": "Essential Hackathon Skills",
+            "skills": [
+                {
+                    "skill": "Technical Skills",
+                    "description": "Programming mastery including multiple languages, frameworks, and development tools. Technical proficiency separates successful teams from those struggling with implementation and allows rapid iteration under time pressure."
+                },
+                {
+                    "skill": "Creative Problem-Solving",
+                    "description": "Innovation thinking including ideation, design thinking, and out-of-the-box solutions. Modern hackathons require participants who can identify real problems and develop creative solutions within compressed timelines."
+                },
+                {
+                    "skill": "Collaboration & Communication",
+                    "description": "Teamwork abilities including cross-functional communication, conflict resolution, and collective decision-making. Hackathons are ultimately team sports where coordination, understanding, and communication are vital for success."
+                },
+                {
+                    "skill": "Presentation & Pitching",
+                    "description": "The ability to effectively communicate ideas and solutions. Hackathons culminate in presentations where teams must convince judges of their solution's value, feasibility, and market potential within strict time limits."
+                }
+            ]
+        },
+        "timeline": {
+            "heading": "Hackathon History Timeline",
+            "events": [
+                {
+                    "year": "1999",
+                    "title": "First Recorded Hackathon",
+                    "description": "OpenBSD held the first documented hackathon in Calgary, focusing on cryptographic software development and security improvements."
+                },
+                {
+                    "year": "2005",
+                    "title": "Corporate Adoption Begins",
+                    "description": "Major tech companies like Yahoo and Google started hosting internal hackathons to drive innovation and employee engagement."
+                },
+                {
+                    "year": "2011",
+                    "title": "Global Expansion",
+                    "description": "Hackathons spread internationally with events in Europe, Asia, and emerging markets, establishing the global hackathon movement."
+                },
+                {
+                    "year": "2014",
+                    "title": "Educational Integration",
+                    "description": "Universities worldwide began incorporating hackathons into curricula and hosting major collegiate competitions."
+                },
+                {
+                    "year": "2020",
+                    "title": "Virtual Revolution",
+                    "description": "COVID-19 pandemic forced hackathons online, leading to virtual formats that expanded global participation and accessibility."
+                },
+                {
+                    "year": "2024",
+                    "title": "AI Integration Era",
+                    "description": "Artificial intelligence and machine learning became central themes, with AI-powered tools transforming how participants develop solutions."
+                }
+            ]
+        },
+        "conclusion": {
+            "heading": "The Innovation Marathon in Action",
+            "quote": "The best way to predict the future is to create it. Hackathons don't just build applications—they build the innovators who will shape tomorrow's technological landscape."
+        },
+        "additional_content": {
+            "prize_categories": [
+                {
+                    "category": "Grand Prize",
+                    "description": "Overall best solution"
+                },
+                {
+                    "category": "Technical Excellence", 
+                    "description": "Most innovative technical implementation"
+                },
+                {
+                    "category": "Social Impact",
+                    "description": "Best solution addressing societal challenges"
+                },
+                {
+                    "category": "People's Choice",
+                    "description": "Audience favorite"
+                },
+                {
+                    "category": "Best Design",
+                    "description": "Most user-friendly interface"
+                }
+            ],
+            "judging_criteria": [
+                {
+                    "criteria": "Innovation and originality",
+                    "percentage": "25%"
+                },
+                {
+                    "criteria": "Technical implementation",
+                    "percentage": "25%"
+                },
+                {
+                    "criteria": "Business viability", 
+                    "percentage": "20%"
+                },
+                {
+                    "criteria": "Presentation quality",
+                    "percentage": "15%"
+                },
+                {
+                    "criteria": "Social impact potential",
+                    "percentage": "15%"
+                }
+            ],
+            "success_stories": [
+                "WhatsApp (originated from hackathon concept)",
+                "Twitter (developed during company hackathon)",
+                "Facebook Like Button (hackathon project)", 
+                "Gmail (20% time project at Google)",
+                "Instagram (pivot from hackathon project)"
+            ],
+            "preparation_tips": [
+                "Form diverse teams early",
+                "Research problem domains",
+                "Prepare development environments",
+                "Practice pitching skills",
+                "Study previous winning projects"
+            ],
+            "common_challenges": [
+                "Time management pressure",
+                "Technical difficulties", 
+                "Team coordination issues",
+                "Scope creep problems",
+                "Presentation preparation"
+            ],
+            "future_trends": [
+                "AI-assisted development",
+                "Sustainable technology focus",
+                "Remote collaboration tools",
+                "Cross-industry partnerships", 
+                "Social impact emphasis"
+            ]
+        }
+    },
+    {   
+        "id": 2,
+        "heading": "The Vibrant Celebration",
+        "cat":"Cultural",
+        "img":"/2.png",
+        "subtitle": "Annual Cultural Festival - Celebrating Diversity and Heritage",
+        "desc": "Where traditions, arts, and communities unite in a spectacular showcase of human creativity and cultural richness",
+        "heading2": "The Global Cultural Phenomenon",
+        "p1": "Cultural festivals serve as vital bridges connecting communities, preserving traditions, and celebrating the rich tapestry of human heritage. These events bring together people from diverse backgrounds to share their customs, arts, cuisine, and stories in a vibrant celebration of unity in diversity.",
+        "p2": "The beauty of cultural festivals lies in their ability to transcend boundaries—linguistic, religious, and social—creating spaces where understanding flourishes and relationships are built through shared experiences of music, dance, food, and storytelling.",
+        "heading3": "Cultural Festival By The Numbers",
+        "numbersData": [
+            {
+                "icon": "📍",
+                "number": "10,000+",
+                "title": "Festivals Worldwide",
+                "description": "Annual cultural celebrations across the globe"
+            },
+            {
+                "icon": "👥",
+                "number": "500M+",
+                "title": "Festival Participants", 
+                "description": "People actively participating in cultural festivals annually"
+            },
+            {
+                "icon": "🎭",
+                "number": "195",
+                "title": "Countries Hosting",
+                "description": "Nations with major cultural festival traditions"
+            },
+            {
+                "icon": "👁️",
+                "number": "2.5B",
+                "title": "Global Audience",
+                "description": "Viewers engaging with cultural festivals through various media"
+            },
+            {
+                "icon": "📅",
+                "number": "5,000+",
+                "title": "Years of History",
+                "description": "Documented history of cultural celebrations"
+            }
+        ],
+        "cardsData": [
+            {
+                "title": "Traditional Arts & Crafts",
+                "icon": "🎨",
+                "description": "The foundation that preserves ancestral skills and techniques.",
+                "p1": "Pottery and ceramics",
+                "p2": "Textile weaving and embroidery",
+                "p3": "Wood carving and sculpture",
+                "p4": "Traditional painting styles",
+                "p5": "Jewelry making"
+            },
+            {
+                "title": "Performing Arts",
+                "icon": "🎭",
+                "description": "Essential expressions that bring cultures to life.",
+                "p1": "Folk dances and choreography",
+                "p2": "Traditional music and instruments",
+                "p3": "Theater and storytelling",
+                "p4": "Poetry and spoken word",
+                "p5": "Cultural ceremonies"
+            },
+            {
+                "title": "Culinary Heritage",
+                "icon": "🍽️",
+                "description": "Authentic flavors that define cultural identity.",
+                "p1": "Traditional cuisine",
+                "p2": "Regional specialties",
+                "p3": "Cooking demonstrations",
+                "p4": "Food history presentations",
+                "p5": "Recipe exchanges"
+            },
+            {
+                "title": "Major Festival Categories",
+                "icon": "🏛️",
+                "description": "The most celebrated types of cultural events worldwide.",
+                "p1": "Religious festivals",
+                "p2": "Harvest celebrations",
+                "p3": "Arts and music festivals",
+                "p4": "Heritage and history festivals"
+            }
+        ],
+        "participant_roles": {
+            "heading": "Festival Components & Organization",
+            "roles": [
+                {
+                    "role": "Event Planning",
+                    "icon": "📋",
+                    "description": "The comprehensive approach to successful festival organization. Festival planning requires months of coordination, involving venue selection, performer booking, vendor management, and community outreach. Key elements include budgeting, safety protocols, marketing strategies, and volunteer coordination to ensure a memorable experience for all participants."
+                },
+                {
+                    "role": "Performance Stages",
+                    "icon": "🎪",
+                    "description": "Various venues that showcase different cultural expressions. Multiple performance areas are essential, including main stages for major acts, intimate spaces for storytelling, workshop areas for hands-on activities, and exhibition halls for visual arts and crafts demonstrations."
+                },
+                {
+                    "role": "Cultural Exhibitions",
+                    "icon": "🏪",
+                    "description": "Interactive displays that educate and engage visitors. Exhibition spaces feature traditional costumes, historical artifacts, cultural tools, interactive displays about customs and traditions, and educational materials that help visitors understand the significance of different cultural practices."
+                },
+                {
+                    "role": "Food & Hospitality",
+                    "icon": "🍴",
+                    "description": "Authentic culinary experiences from participating cultures. Food pavilions offer traditional dishes, cooking demonstrations, cultural dining experiences, and opportunities to learn about the role of food in different cultures and celebrations."
+                }
+            ]
+        },
+        "essential_skills": {
+            "heading": "Essential Festival Skills",
+            "skills": [
+                {
+                    "skill": "Artistic Expression",
+                    "icon": "🎨",
+                    "description": "Creative abilities that showcase cultural heritage through various art forms. Artistic skills include traditional craftsmanship, contemporary interpretations of classical arts, and the ability to teach and demonstrate techniques to festival visitors."
+                },
+                {
+                    "skill": "Performance Excellence",
+                    "icon": "🎭",
+                    "description": "Entertainment capabilities that engage and inspire audiences. Performance skills encompass stage presence, audience interaction, cultural authenticity in presentations, and the ability to convey cultural stories through various artistic mediums."
+                },
+                {
+                    "skill": "Cultural Communication",
+                    "icon": "🤝",
+                    "description": "The ability to bridge cultural gaps and facilitate understanding. Communication skills involve multilingual capabilities, cultural sensitivity, storytelling abilities, and the capacity to explain cultural significance and traditions to diverse audiences."
+                },
+                {
+                    "skill": "Community Coordination",
+                    "icon": "👥",
+                    "description": "Organizational abilities that bring together diverse groups effectively. Coordination skills include event management, volunteer leadership, cross-cultural collaboration, and the ability to create inclusive environments where all cultures feel welcomed and represented."
+                }
+            ]
+        },
+        "timeline": {
+            "heading": "Cultural Festival History Timeline",
+            "events": [
+                {
+                    "year": "3000 BCE",
+                    "title": "Ancient Festival Origins",
+                    "icon": "🏛️",
+                    "description": "The earliest recorded cultural celebrations began in ancient civilizations, featuring harvest festivals, religious ceremonies, and community gatherings that established the foundation for modern cultural festivals."
+                },
+                {
+                    "year": "8th Century BCE",
+                    "title": "Olympic and Dionysian Festivals",
+                    "icon": "🎭",
+                    "description": "Greece introduced structured cultural competitions and artistic celebrations, combining athletic prowess with cultural performances, poetry, and theatrical presentations that influenced festival formats worldwide."
+                },
+                {
+                    "year": "500-1500 CE",
+                    "title": "Global Festival Expansion",
+                    "icon": "🌍",
+                    "description": "Cultural festivals spread across continents through trade routes and cultural exchange, with each region developing unique traditions while maintaining common elements of celebration, community gathering, and cultural expression."
+                },
+                {
+                    "year": "19th Century",
+                    "title": "Modern Festival Structure",
+                    "icon": "🎪",
+                    "description": "The industrial revolution enabled larger-scale festivals with improved transportation, communication, and organizational capabilities, leading to the establishment of many festivals that continue today."
+                },
+                {
+                    "year": "2000+",
+                    "title": "Technology Integration",
+                    "icon": "🌐",
+                    "description": "Modern festivals incorporate digital elements, live streaming, social media engagement, and virtual participation options, making cultural celebrations accessible to global audiences while maintaining traditional authenticity."
+                }
+            ]
+        },
+        "conclusion": {
+            "heading": "The Cultural Celebration in Action",
+            "quote": "Culture is the widening of the mind and of the spirit. It is never a narrow pursuit, but always an expansion of human understanding and celebration of our shared humanity.",
+            "actionPoints": [
+                "Traditional performances come alive through music, dance, and theatrical presentations",
+                "Artisan workshops allow hands-on learning of traditional crafts and skills",
+                "Cultural exchanges foster understanding and appreciation between different communities",
+                "Educational programs teach younger generations about their heritage and others' traditions",
+                "Community bonding strengthens social ties and creates lasting memories",
+                "Economic impact supports local businesses and cultural preservation efforts"
+            ]
+        },
+        "additional_content": {
+            "impact_benefits": [
+                {
+                    "category": "Cultural Preservation",
+                    "icon": "🌟",
+                    "description": "Festivals serve as living museums, keeping traditions alive and passing them to future generations through active participation rather than passive observation."
+                },
+                {
+                    "category": "Community Building",
+                    "icon": "🤝",
+                    "description": "These celebrations strengthen social bonds, create networking opportunities, and foster a sense of belonging among participants from diverse backgrounds."
+                },
+                {
+                    "category": "Economic Development",
+                    "icon": "💼",
+                    "description": "Cultural festivals generate significant economic activity through tourism, local business support, job creation, and promotion of cultural industries."
+                },
+                {
+                    "category": "Educational Value",
+                    "icon": "📚",
+                    "description": "Festivals provide immersive learning experiences that promote cultural literacy, historical awareness, and global understanding among participants of all ages."
+                },
+                {
+                    "category": "Artistic Innovation",
+                    "icon": "🎭",
+                    "description": "While preserving traditions, festivals also encourage creative interpretations and contemporary expressions of cultural heritage, ensuring its continued relevance."
+                }
+            ],
+            "festival_types": [
+                "Religious and spiritual festivals",
+                "Seasonal and harvest celebrations",
+                "Music and performing arts festivals",
+                "Food and culinary festivals",
+                "Heritage and historical commemorations",
+                "Art and craft exhibitions",
+                "Literature and storytelling events",
+                "Dance and movement celebrations"
+            ],
+            "planning_considerations": [
+                "Venue selection and capacity planning",
+                "Cultural authenticity and representation",
+                "Community engagement and participation",
+                "Safety and security protocols",
+                "Accessibility for all participants",
+                "Environmental sustainability",
+                "Budget management and sponsorship",
+                "Marketing and promotion strategies"
+            ],
+            "success_metrics": [
+                "Attendance and participation rates",
+                "Cultural diversity representation",
+                "Community satisfaction scores",
+                "Media coverage and reach",
+                "Economic impact measurement",
+                "Educational outcomes achieved",
+                "Cultural preservation goals met",
+                "Future participation commitments"
+            ]
+        }
+    },
+    {   
+        "id": 3,
+        "heading": "Inter COllege Sports Meet",
+        "cat":"Sports",
+        "img":"/football.jpg",
+        "subtitle": "Annual Cultural Festival - Celebrating Diversity and Heritage",
+        "desc": "Where traditions, arts, and communities unite in a spectacular showcase of human creativity and cultural richness",
+        "heading2": "The Global Cultural Phenomenon",
+        "p1": "Cultural festivals serve as vital bridges connecting communities, preserving traditions, and celebrating the rich tapestry of human heritage. These events bring together people from diverse backgrounds to share their customs, arts, cuisine, and stories in a vibrant celebration of unity in diversity.",
+        "p2": "The beauty of cultural festivals lies in their ability to transcend boundaries—linguistic, religious, and social—creating spaces where understanding flourishes and relationships are built through shared experiences of music, dance, food, and storytelling.",
+        "heading3": "Cultural Festival By The Numbers",
+        "numbersData": [
+            {
+                "icon": "📍",
+                "number": "10,000+",
+                "title": "Festivals Worldwide",
+                "description": "Annual cultural celebrations across the globe"
+            },
+            {
+                "icon": "👥",
+                "number": "500M+",
+                "title": "Festival Participants", 
+                "description": "People actively participating in cultural festivals annually"
+            },
+            {
+                "icon": "🎭",
+                "number": "195",
+                "title": "Countries Hosting",
+                "description": "Nations with major cultural festival traditions"
+            },
+            {
+                "icon": "👁️",
+                "number": "2.5B",
+                "title": "Global Audience",
+                "description": "Viewers engaging with cultural festivals through various media"
+            },
+            {
+                "icon": "📅",
+                "number": "5,000+",
+                "title": "Years of History",
+                "description": "Documented history of cultural celebrations"
+            }
+        ]
+    },
+    {   
+        "id": 4,
+        "heading": "React Workshops",
+        "cat":"Sports",
+        "img":"/8.png",
+        "subtitle": "Annual Cultural Festival - Celebrating Diversity and Heritage",
+        "desc": "Where traditions, arts, and communities unite in a spectacular showcase of human creativity and cultural richness",
+        "heading2": "The Global Cultural Phenomenon",
+        "p1": "Cultural festivals serve as vital bridges connecting communities, preserving traditions, and celebrating the rich tapestry of human heritage. These events bring together people from diverse backgrounds to share their customs, arts, cuisine, and stories in a vibrant celebration of unity in diversity.",
+        "p2": "The beauty of cultural festivals lies in their ability to transcend boundaries—linguistic, religious, and social—creating spaces where understanding flourishes and relationships are built through shared experiences of music, dance, food, and storytelling.",
+        "heading3": "Cultural Festival By The Numbers",
+        "numbersData": [
+            {
+                "icon": "📍",
+                "number": "10,000+",
+                "title": "Festivals Worldwide",
+                "description": "Annual cultural celebrations across the globe"
+            },
+            {
+                "icon": "👥",
+                "number": "500M+",
+                "title": "Festival Participants", 
+                "description": "People actively participating in cultural festivals annually"
+            },
+            {
+                "icon": "🎭",
+                "number": "195",
+                "title": "Countries Hosting",
+                "description": "Nations with major cultural festival traditions"
+            },
+            {
+                "icon": "👁️",
+                "number": "2.5B",
+                "title": "Global Audience",
+                "description": "Viewers engaging with cultural festivals through various media"
+            },
+            {
+                "icon": "📅",
+                "number": "5,000+",
+                "title": "Years of History",
+                "description": "Documented history of cultural celebrations"
+            }
+        ]
+    }
+    ]
+

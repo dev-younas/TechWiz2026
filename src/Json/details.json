@@ -1,0 +1,166 @@
+[
+  {
+    "id": 1,
+    "tblId": 1,
+    "heading": "Technical Skills",
+    "p": "Showcasing expertise in modern technologies and development practices",
+    "heading2": "Technical Expertise",
+    "cardsData": [
+      {
+        "title": "Frontend Development",
+        "description": "Creating responsive and interactive user interfaces with modern frameworks and libraries.",
+        "levelText": "Advanced",
+        "img": "/front.jpg",
+        "levelPercent": 85
+      },
+      {
+        "title": "Backend Development",
+        "description": "Building robust server-side applications, APIs, and database management systems.",
+        "levelText": "Expert",
+        "img": "/back.jpg",
+        "levelPercent": 90
+      },
+      {
+        "title": "UI/UX Design",
+        "description": "Creating intuitive user experiences with modern design principles and prototyping tools.",
+        "levelText": "Advanced",
+        "img": "/ui.jpg",
+        "levelPercent": 80
+      },
+      {
+        "title": "DevOps & Cloud",
+        "description": "Implementing CI/CD pipelines, cloud infrastructure, and automation solutions.",
+        "levelText": "Intermediate",
+        "img": "/devop.jpeg",
+        "levelPercent": 72
+      }
+    ],
+    "heading3": "Technical Achievements",
+    "img": "",
+    "sideTxtH": "My Technical Journey",
+    "sideTxtP": "I've been actively involved in technology projects and competitions. My journey taught me problem solving, teamwork and continuous learning. Notable achievements include building production-ready apps, contributing to open-source projects, and mentoring juniors."
+  },
+  {
+    "id": 2,
+    "tblId": 1,
+    "heading": "Cultural Days",
+    "p": "Celebrating campus culture through events and performances",
+    "heading2": "Cultural Expertise",
+    "cardsData": [
+      {
+        "title": "Dance",
+        "description": "Choreographing and performing in cultural dance events.",
+        "levelText": "Advance",
+        "img": "/dance.jpg",
+        "levelPercent": 100
+      },
+      {
+        "title": "Music",
+        "description": "Vocal and instrumental performances in campus festivals.",
+        "levelText": "Expert",
+        "img": "/music.jpg",
+        "levelPercent": 100
+      },
+      {
+        "title": "Food",
+        "description": "Food is the blessing of Allah",
+        "levelText": "Advanced",
+        "img": "/food.jpg",
+        "levelPercent": 78
+      },
+      {
+        "title": "Event Coordination",
+        "description": "Organizing cultural events end-to-end.",
+        "levelText": "Advanced",
+        "img": "/food.jpg",
+        "levelPercent": 84
+      }
+    ],
+    "heading3": "Cultural Happenings",
+    "img": "/food.jpg",
+    "sideTxtH": "Culture",
+    "sideTxtP": "Active participant and organizer of cultural fests. Experience in choreography, music direction and event logistics."
+  },
+  {
+    "id": 3,
+    "tblId": 1,
+    "heading": "Sports Events",
+    "p": "Showcasing athletic abilities and sports achievements",
+    "heading2": "Sports Expertise",
+    "cardsData": [
+      {
+        "title": "Football",
+        "description": "Competitive midfielder with tactical awareness and passing accuracy.",
+        "levelText": "Expert",
+        "img": "/football.jpg",
+        "levelPercent": 90
+      },
+      {
+        "title": "Basketball",
+        "description": "Point guard with court vision and perimeter shooting.",
+        "levelText": "Advanced",
+        "img": "/basketball.png",
+        "levelPercent": 82
+      },
+      {
+        "title": "Swimming",
+        "description": "Freestyle and butterfly specialist with endurance training.",
+        "levelText": "Expert",
+        "img": "/swim.jpg",
+        "levelPercent": 92
+      },
+      {
+        "title": "Tennis",
+        "description": "Strong serve and volley play in regional tournaments.",
+        "levelText": "Advanced",
+        "img": "/tennis.jpg",
+        "levelPercent": 80
+      }
+    ],
+    "heading3": "Sports Achievements",
+    "img": "/swim.jpg",
+    "sideTxtH": "My Sports Journey",
+    "sideTxtP": "Participated in regional and national tournaments. Focused on discipline, stamina, and regular training."
+  },
+  {
+    "id": 4,
+    "tblId": 1,
+    "heading": "Departmental Events",
+    "p": "Organizing academic and departmental programs",
+    "heading2": "Departmental Expertise",
+    "cardsData": [
+      {
+        "title": "Workshops",
+        "description": "Planning and executing technical workshops for students.",
+        "levelText": "Advanced",
+        "img": "/work.jpg",
+        "levelPercent": 83
+      },
+      {
+        "title": "Seminars",
+        "description": "Curating guest lectures and panel discussions.",
+        "levelText": "Advanced",
+        "img": "/seminar.jpg",
+        "levelPercent": 79
+      },
+      {
+        "title": "Competitions",
+        "description": "Running departmental contests and hackathons.",
+        "levelText": "Advanced",
+        "img": "/competition.jpg",
+        "levelPercent": 81
+      },
+      {
+        "title": "Coordination",
+        "description": "Managing schedules, volunteers and logistics.",
+        "levelText": "Expert",
+        "img": "/co-ord.jpg",
+        "levelPercent": 87
+      }
+    ],
+    "heading3": "Department Achievements",
+    "img": "/swim.jpg",
+    "sideTxtH": "HR / Coordinating Journey",
+    "sideTxtP": "Led multiple departmental events with measurable improvement in participation and feedback scores."
+  }
+]

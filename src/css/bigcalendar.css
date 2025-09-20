@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+     font-family: 'Poppins', sans-serif !important;
+}
+.rbc-calendar {
+  background: #ffffff;
+  color: brown;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: "Arial", sans-serif;
+}
+
+/* Toolbar */
+.rbc-toolbar {
+  color: brown;
+  font-weight: bold;
+}
+
+/* Month view borders */
+.rbc-month-view {
+  border: 1px solid #d2b48c; /* light brown border */
+}
+
+/* Each day cell */
+.rbc-day-bg {
+  border: 1px solid #e0c097;
+}
+
+/* Events inside date boxes */
+.rbc-event {
+  background: brown;
+  color: white;
+  border-radius: 4px;
+  padding: 2px 4px;
+  font-size: 0.85rem;
+}

@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+     font-family: 'Poppins', sans-serif !important;
+}
+.body {
+    background: linear-gradient(135deg, var(--muted) 0%, var(--light-accent) 100%);
+    color: var(--text);
+    line-height: 1.6;
+    min-height: 100vh;
+    padding: 2rem 1rem;
+}
+
+.containerr {
+    max-width: 800px;
+    margin: 0 auto;
+  
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+header {
+    background: linear-gradient(to right, var(--dark-chocolate), var(--earthy-brown));
+    color: var(--white);
+    padding: 2.5rem 2rem;
+    text-align: center;
+}
+
+.logo {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.tagline {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+.content {
+    padding: 2.5rem;
+}
+
+h1 {
+    color: var(--dark-chocolate);
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.disclaimer {
+    background-color: #ffe6cc;
+    border-left: 4px solid var(--earthy-brown);
+    padding: 1.2rem;
+    margin: 1.5rem 0 2rem;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.8rem;
+}
+
+.disclaimer i {
+    color: var(--earthy-brown);
+    font-size: 1.2rem;
+    margin-top: 0.1rem;
+}
+
+.form-group {
+    margin-bottom: 1.8rem;
+    position: relative;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.6rem;
+    font-weight: 600;
+    color: var(--dark-chocolate);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+label i {
+    font-size: 1.1rem;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 0.9rem 1.2rem;
+    border: 2px solid var(--soft-stone);
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: var(--earthy-brown);
+    box-shadow: 0 0 0 3px rgba(139, 69, 19, 0.2);
+}
+
+textarea {
+    min-height: 140px;
+    resize: vertical;
+}
+
+.rating-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 0.3rem;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    cursor: pointer;
+    font-size: 2rem;
+    color: var(--soft-stone);
+    transition: color 0.2s, transform 0.2s;
+    padding: 0.2rem;
+}
+
+.rating label:hover,
+.rating label:hover ~ label,
+.rating input:checked ~ label {
+    color: var(--earthy-brown);
+}
+
+.rating label:active {
+    transform: scale(0.9);
+}
+
+.rating-labels {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 350px;
+    font-size: 0.85rem;
+    color: var(--warm-taupe);
+    font-weight: 500;
+    margin-top: 0.3rem;
+}
+
+button {
+    background: linear-gradient(to right, var(--earthy-brown), var(--dark-chocolate));
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    display: block;
+    margin: 2rem auto 1rem;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+.thank-you {
+    text-align: center;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, var(--muted) 0%, var(--light-accent) 100%);
+    border-radius: 10px;
+    margin-top: 2rem;
+    display: none;
+}
+
+.thank-you i {
+    font-size: 3rem;
+    color: var(--earthy-brown);
+    margin-bottom: 1rem;
+}
+
+.thank-you h2 {
+    color: var(--dark-chocolate);
+    margin-bottom: 1rem;
+}
+
+
+@media (max-width: 768px) {
+    .content {
+        padding: 1.8rem;
+    }
+    
+    header {
+        padding: 2rem 1.5rem;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    .rating label {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 1rem;
+    }
+    
+    .content {
+        padding: 1.5rem;
+    }
+    
+    header {
+        padding: 1.5rem 1rem;
+    }
+    
+    .logo {
+        font-size: 1.8rem;
+    }
+    
+    h1 {
+        font-size: 1.6rem;
+    }
+    
+    .rating label {
+        font-size: 1.6rem;
+    }
+    
+    input, select, textarea {
+        padding: 0.8rem;
+    }
+}

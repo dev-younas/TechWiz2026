@@ -1,0 +1,64 @@
+
+
+{   
+    "events":[
+    {
+        "id":1,
+        "name":"Technical",
+        "p":"Hackathons, seminars & workshops"
+    },
+    {
+        "id":2,
+        "name":"Cultural",
+        "p":"Music, dance & art events"
+    },
+    {
+        "id":3,
+        "name":"Sports",
+        "p":"Competitions & tournaments"
+    },
+    {
+        "id":4,
+        "name":"Workshops",
+        "p":"Learning & skill development"
+    }
+],
+
+    "upEvents":[
+        {
+            "id":1,
+            "img":"/1.png",
+            "date":"July 20-21, 2025 • 10:00 AM",
+            "heading":"Annual Hackathon",
+            "p":"24-hour coding competition open to all students. Showcase your problem-solving skills.",
+            "category":"Technical"
+        },
+        {
+            "id":2,
+            "img":"/3.png",
+            "date":"August 15-17, 2025 • 6:00 PM",
+            "heading":"Annual Cultural Festival",
+            "p":"Three days of music, dance, drama and art competitions. Open to all colleges.",
+            "category":"Cultural"
+        },
+        {
+            "id":3,
+            "img":"/6.png",
+             "date":"August 15-17, 2025 • 6:00 PM",
+            "heading":"Inter-College Sports Meet",
+            
+            "p":"Annual sports competition featuring athletics, team games and more..Open for all Colleges",
+            "category":"Sports"
+        },
+        {
+            "id":4,
+            "img":"/5.png",
+            "date":"September 5-7, 2025 • All Day",
+            "heading":"Inter-College Debate Competition",
+            "p":"Annual debate competition featuring to boost confidence, team games and more..Open for all Championship",
+            "category":"Workshops"
+        }
+    ]
+
+}
+

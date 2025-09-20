@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+     font-family: 'Poppins', sans-serif !important;
+}
+.events-hero {
+  background: url("https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1200") center/cover no-repeat;
+  height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: relative;
+}
+
+.events-hero .overlay {
+  background: rgba(0, 0, 0, 0.55);
+  padding: 30px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.section-title {
+  font-weight: 800;
+  color: var(--dark-chocolate);
+  text-align: center;
+  color: brown;
+}
+
+.section-title:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: var(--earthy-brown);
+  margin: 15px auto;
+}
+
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0 3rem;
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+
+.filter-btn {
+  padding: 8px 18px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.filter-btn:hover {
+  background-color: #f3f3f3;
+}
+
+.filter-btn.active {
+  border: 2px solid #8B4513;
+  background-color: #8B4513;
+  color: #fff;
+}
+
+.filter-btn.active:hover {
+  background-color: #5c3010;
+}
+
+.event-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  height: 100%;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+}
+
+.event-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.register-btn {
+  background-color: #8B4513;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-top: 10px;
+  display: block;
+  /* Make it block for full width if needed */
+}
+
+.register-btn:hover {
+  background-color: #5c3010;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+  .events-hero {
+    height: 200px;
+  }
+
+  .events-hero .overlay {
+    padding: 20px;
+  }
+
+  .filter-buttons {
+    gap: 0.5rem;
+    margin: 1.5rem 0 2rem;
+  }
+
+  .event-card img {
+    height: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .events-hero {
+    height: 150px;
+  }
+
+  .events-hero .overlay {
+    padding: 15px;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .filter-buttons {
+    gap: 0.3rem;
+    margin: 1rem 0 1.5rem;
+  }
+
+  .event-card img {
+    height: 120px;
+  }
+}
+
+@media (max-width: 576px) {
+  .events-hero {
+    height: 120px;
+  }
+
+  .events-hero .overlay {
+    padding: 10px;
+  }
+
+  .section-title {
+    font-size: 1.2rem;
+  }
+
+  .filter-buttons {
+    gap: 0.2rem;
+    margin: 0.5rem 0 1rem;
+  }
+
+  .event-card img {
+    height: 100px;
+  }
+}
+
+@media (max-width: 400px) {
+  .events-hero {
+    height: 100px;
+  }
+
+  .events-hero .overlay {
+    padding: 8px;
+  }
+
+  .section-title {
+    font-size: 1rem;
+  }
+
+  .filter-buttons {
+    gap: 0.1rem;
+    margin: 0.3rem 0 0.8rem;
+  }
+
+  .event-card img {
+    height: 80px;
+  }
+}
+
+.ab {
+  padding: 12px !important;
+  border-radius: 10px !important;
+  font-weight: bold;
+ font-size: 15px !important;
+}
